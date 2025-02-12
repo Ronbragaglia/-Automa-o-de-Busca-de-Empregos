@@ -44,10 +44,15 @@ Execute o comando abaixo para instalar os pacotes necessários:
 ```bash
 pip install selenium pandas
 
-![image](https://github.com/user-attachments/assets/8d54abf4-30ae-46d6-9ec4-4218579dd308)
+2️⃣ Configuração das credenciais
+Para garantir a segurança, configure as credenciais do BrowserStack como variáveis de ambiente:
 
-![image](https://github.com/user-attachments/assets/9daa5d61-456d-4aa9-8a7a-c58640ac3c37)
-
+python
+Copiar
+Editar
+import os
+os.environ['BROWSERSTACK_USERNAME'] = 'SEU_USUARIO'
+os.environ['BROWSERSTACK_ACCESS_KEY'] = 'SUA_CHAVE_DE_ACESSO'
 
 
 
