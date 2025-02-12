@@ -55,5 +55,14 @@ os.environ['BROWSERSTACK_USERNAME'] = 'SEU_USUARIO'
 os.environ['BROWSERSTACK_ACCESS_KEY'] = 'SUA_CHAVE_DE_ACESSO'
 
 
+3️⃣ Executando o JobScraper
+Basta rodar o script jobscraper.py no seu ambiente Python:
+
+python
+Copiar
+Editar
+python jobscraper.py
+O scraper vai buscar as vagas automaticamente, salvá-las em CSV e simular alertas via WhatsApp.
+
 
 
